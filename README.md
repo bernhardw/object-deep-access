@@ -21,19 +21,6 @@ Deep-access objects by path to get, set, check and delete values.
     access.get(myObject, 'database.pass'); // Returns: 'secret'
     access.delete(myObject, 'database.pass'); 
 
-## Ideas
-
-* Extend prototype with deepGet, deepSet and deepHas methods like [should](https://github.com/visionmedia/should.js/) does (non-enumerable). So the subject object needs not to be a param. Or maybe as an option.
-    
-    myObject.deepSet('foo.bar', 'baz');
-    
-    // vs.
-    
-    deep(myObject, 'foo.bar', 'baz')
-        
-http://lostechies.com/derickbailey/2012/10/07/javascript-mixins-beyond-simple-object-extension/
-http://lostechies.com/chrismissal/2012/09/27/extending-objects-with-javascript/
-
 ## API
 
 ### get(object, path)

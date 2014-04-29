@@ -1,0 +1,24 @@
+{
+    "name": "object-deep-access",
+    "version": "0.0.0",
+    "description": "Deep-access objects by path to get, set, check and delete values.",
+    "main": "lib/index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "*",
+        "expect.js": "*",
+        "benchmark": "*"
+    },
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bernhardw/object-deep-access.git"
+    },
+    "keywords": ["deep", "object", "access", "property", "utility", "nested", "string"],
+    "author": "Bernhard Wanger <mail@bernhardwanger.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bernhardw/object-deep-access/issues"
+    },
+    "homepage": "https://github.com/bernhardw/object-deep-access"
+}
